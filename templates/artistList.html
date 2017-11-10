@@ -1,10 +1,10 @@
 <div id="artist-list">
   <h4>Similar Artists</h4>
   <div>
-    <div
+    <artist-list-item
       artist=artist
       index="$index"
       ng-repeat="artist in $ctrl.artists"
-    >{{artist.name}}</div>
+    />
   </div>
 </div>

@@ -1,0 +1,10 @@
+.image {
+  width: 20%;
+  height: auto;
+  border-radius: 100px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
