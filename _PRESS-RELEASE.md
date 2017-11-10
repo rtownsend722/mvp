@@ -16,30 +16,30 @@ Oh, and I also like to write press-releases in what I call "Oprah-speak" for mai
 Once the project moves into development, the press release can be used as a touchstone; a guiding light. The product team can ask themselves, "Are we building what is in the press release?" If they find they're spending time building things that aren't in the press release (overbuilding), they need to ask themselves why. This keeps product development focused on achieving the customer benefits and not building extraneous stuff that takes longer to build, takes resources to maintain, and doesn't provide real customer benefit (at least not enough to warrant inclusion in the press release).
  -->
  
-## Global Music Finder  ##
+## Sounds Like ##
   > Name the product in a way the reader (i.e. your target customers) will understand.
 
 
-## An international trending music discovery app for music lovers ##
+## An app to discover new music that sounds like what you already enjoy listening to. ##
   > Describe who the market for the product is and what benefit they get. One sentence only underneath the title.
 
-## Users can easily discover what music is trending from any country in the world! The app is pre-populated with trending songs from 3 pre-selected countries. Adventerous users can search any country of their choosing to discover even more music from around the world. ##
+## Users can discover new music based on artists that are similar to those they already know and love. ##
   > Give a summary of the product and the benefit. Assume the reader will not read anything else so make this paragraph good.
 
-## Most of the music we listen to is based off what ourselves or our friends already listen to. It can be difficult to discover great music that isn't similar to what you already enjoy!##
+## This app helps music lovers discover new artists ##
   > Describe the problem your product solves.
 
-## This app makes it easy to find new music based on what people are listening to all around the world.##
+## Everyone knows which artists they already love. This app makes it easy to find new music to listen to based on what you already know! ##
   > Describe how your product elegantly solves the problem.
 
-## I'm excited to provide music lovers with a fun and fast way to discover what people are listening to all around the world. ##
+## We're excited to help make it super easy for music lovers discover new artists! ##
   > A quote from a spokesperson in your company.
 
-## Getting started is easy. Just visit Global Music Finder and immediately start discovering music from any country you choose!##
+## Getting started is easy. Just visit Sounds Like, enter an artist you love, and discover new artists that have a similar sound!##
   > Describe how easy it is to get started.
 
-## "I was getting really bored listening to all of the same kinds of bands on Spotify. Global Music Finder opened me up to so many unique and cool songs I would have never listened to before!" ##
+## "I was getting really bored listening to all of the same bands all the time. Sounds like opened me up to so many artists I would have never listened to before. It's wayyyy better than Spotify." ##
   > Provide a quote from a hypothetical customer that describes how they experienced the benefit.
 
-## Visit Global Music Finder today to start your music discovery journey! ##
+## Visit Sounds Like today to start your music discovery journey! ##
   > Wrap it up and give pointers where the reader should go next.
