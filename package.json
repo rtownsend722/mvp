@@ -1,0 +1,23 @@
+{
+  "name": "hrsf84-mvp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rtownsend722/hrsf84-mvp.git"
+  },
+  "author": "Rebecca Townsend",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rtownsend722/hrsf84-mvp/issues"
+  },
+  "homepage": "https://github.com/rtownsend722/hrsf84-mvp#readme",
+  "dependencies": {
+    "angular": "^1.6.6",
+    "live-server": "^1.2.0"
+  }
+}
