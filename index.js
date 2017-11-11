@@ -1,7 +1,1 @@
-angular.module('main', ['spotify']);
-
-angular.module('spotify', [])
-.controller('spotifyController', function(Spotify) {
-
-  
-});
+angular.module('main', []);

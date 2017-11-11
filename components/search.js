@@ -2,7 +2,8 @@ angular.module('main')
 
   .component('search', {
     bindings: {
-      search: '<'
+      search: '<',
+      artist: '='
     },
 
     templateUrl: './templates/search.html'

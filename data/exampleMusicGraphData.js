@@ -1,146 +1,438 @@
+window.exampleDataObj = 
 {
  "status": {
-  "code": 0,
+  "api": "v2",
   "message": "Success",
-  "api": "v2"
+  "code": 0
  },
  "pagination": {
   "count": 20,
-  "total": 62,
+  "total": 200,
   "offset": 1
  },
  "data": [
   {
-   "main_genre": "Pop",
+   "id": "ab03f3c2-dc65-d333-406b-0e4dddda1407",
    "decade": "1990s / 2000s / 2010s",
    "country_of_origin": "United States of America",
    "entity_type": "artist",
-   "artist_ref_id": "187269",
-   "id": "6cb4bc22-71a6-9f57-193a-e88aae92b975",
-   "musicbrainz_id": "859d0860-d480-4efd-970c-c05d5f1776b8",
+   "artist_ref_id": "8294",
+   "similarity": 1,
+   "main_genre": "Soul/R&B",
+   "musicbrainz_id": "a796b92e-c137-4895-9c89-10f900617a4f",
    "alternate_names": [
-    "Beyoncé Gisselle Knowles",
-    "Beyonce",
-    "Beyonce'",
-    "B1C",
-    "Beyoncé Giselle Knowles-Carter",
-    "Beyoncé Giselle Knowles",
-    "Beyoncé Knowles",
-    "Beyoncé feat. Sasha",
-    "Beyoncé feat. Sasha A/K/A Beyoncé"
+    "Destinys Child",
+    "Destiny´s Child",
+    "Destiny's Child"
    ],
-   "name": "Beyoncé",
-   "spotify_id": "6vWDO969PvNqNYHIOW5v0m",
+   "spotify_id": "1Y8cdNmUJH7yBTd9yOvr5i",
+   "name": "Destiny's Child",
    "gender": "Female",
-   "sort_name": "Beyonce",
-   "musicbrainz_image_url": "https://commons.wikimedia.org/wiki/File:Beyonce_Knowles_with_necklaces.jpg",
-   "youtube_id": "UCoPQ_TWm8JZ5nJv4a5BzSWA"
+   "popularity": 0.74,
+   "sort_name": "Destiny's Child",
+   "youtube_id": "UCksv4FYu55EEkyy5Q1W_yUw"
   },
   {
-   "name": "Beyonce Smooth Jazz Tribute",
+   "id": "58340047-2e5f-dc1e-ef68-3e517a3e37ee",
+   "decade": "2000s / 1990s / 2010s",
+   "country_of_origin": "United States of America",
    "entity_type": "artist",
-   "artist_ref_id": "307271",
-   "id": "d11e6632-d6e3-43af-91ef-bd6095834850",
-   "main_genre": "Jazz"
-  },
-  {
-   "id": "b47442a8-5230-4d7b-8f90-3e3748d7be01",
-   "name": "Beyoncé, Bilal",
-   "entity_type": "artist"
-  },
-  {
-   "id": "2994bfe0-d1e6-4262-ae7a-fae55e25092f",
-   "name": "Beyoncé feat. Jay-Z",
-   "entity_type": "artist"
-  },
-  {
-   "name": "Beyonce Karaoke Band",
-   "entity_type": "artist",
-   "artist_ref_id": "1616512",
-   "id": "2b915d54-414b-4b7d-a572-8ef470fb5fa1",
-   "main_genre": "World"
-  },
-  {
-   "id": "9fabc16f-181a-43ff-b232-33decb91dc9e",
-   "name": "Beyoncé Knowles / Jay-Z",
-   "entity_type": "artist"
-  },
-  {
-   "name": "Beyoncé;Free;MC Lyte;Missy Elliott",
-   "entity_type": "artist",
-   "id": "a6cc1e1c-5bb3-413a-91b9-254e0ec759ec"
-  },
-  {
-   "id": "afc1d2e9-60ed-4de8-8332-2afff3cd15a8",
-   "name": "Beyoncé feat. Voltio",
-   "entity_type": "artist"
-  },
-  {
-   "id": "b9f7dabf-ef42-41bb-b7cc-2035d233c442",
-   "name": "Beyoncé / Alejandro Fernández",
-   "entity_type": "artist"
-  },
-  {
-   "entity_type": "artist",
-   "sort_name": "Beyonce Tribute Band",
-   "id": "052072c0-4c8b-60ac-8027-668f3241dd14",
-   "name": "Beyonce Tribute Band"
-  },
-  {
-   "id": "e84d84c5-d63d-4431-93d0-ca3f411ba384",
-   "name": "Beyonce Karaoke Band",
-   "entity_type": "artist"
-  },
-  {
-   "id": "05bf8148-96b4-40c9-a047-836db843bc00",
-   "name": "Beyonce's Karaoke Band",
-   "entity_type": "artist"
-  },
-  {
-   "id": "9bfc0f78-e01a-4fab-ab6e-0f5cc8bffb2f",
-   "name": "Beyoncé feat. Jay-Z",
-   "entity_type": "artist"
-  },
-  {
-   "id": "763e115f-e5f4-4262-b64e-1183db7b5855",
-   "name": "Beyoncé and Djehwti Awsar El featuring Big Freeda",
-   "entity_type": "artist"
-  },
-  {
-   "id": "c91f8652-760a-4f36-a430-62285685268f",
-   "name": "Beyoncé / Andre 3000",
-   "entity_type": "artist"
-  },
-  {
-   "entity_type": "artist",
-   "artist_ref_id": "187269",
+   "artist_ref_id": "18002",
+   "similarity": 0.469148,
+   "main_genre": "Soul/R&B",
+   "musicbrainz_id": "31bea673-d23a-4889-8da1-7cb040863268",
+   "alternate_names": [
+    "Kelendria Trene Rowland",
+    "Kelly Roland"
+   ],
+   "spotify_id": "3AuMNF8rQAKOzjYppFNAoB",
+   "name": "Kelly Rowland",
    "gender": "Female",
-   "main_genre": "pop",
-   "youtube_id": "UC9zX2xZIJ4cnwRsgBpHGvMg",
-   "sort_name": "Knowles, Beyonce",
-   "id": "76eda7b5-8201-89ab-2905-fb9d39c875b3",
-   "decade": "2000s / 1990s",
-   "name": "Beyoncé Knowles"
+   "popularity": 0.71,
+   "sort_name": "Rowland, Kelly",
+   "musicbrainz_image_url": "https://commons.wikimedia.org/wiki/File:Kelly_Rowland_12,_2012.jpg",
+   "youtube_id": "UCgUK1ZcN_Wk-fmqUrOHk69A"
   },
   {
-   "id": "8536af72-4e28-4e0a-b3c3-6e3f6279564c",
-   "name": "Beyoncé Knowles with Sharon Leal & Anika Noni Rose",
-   "entity_type": "artist"
+   "id": "e5cae432-a6b5-11e0-b446-00251188dd67",
+   "decade": "2000s / 2010s",
+   "country_of_origin": "Barbados",
+   "entity_type": "artist",
+   "artist_ref_id": "192994",
+   "similarity": 0.403917,
+   "main_genre": "Pop",
+   "musicbrainz_id": "73e5e69d-3554-40d8-8516-00cb38737a1c",
+   "alternate_names": [
+    "蕾哈娜",
+    "Rhianna",
+    "Riannah",
+    "Robyn Rihanna Fenty",
+    "Rihanna feat. Mikky Ekko"
+   ],
+   "spotify_id": "5pKCCKE2ajJHZ9KAiaK11H",
+   "name": "Rihanna",
+   "gender": "Female",
+   "popularity": 0.92,
+   "sort_name": "Rihanna",
+   "musicbrainz_image_url": "https://commons.wikimedia.org/wiki/File:Rihanna_Cologne_2013_03.jpg",
+   "youtube_id": "UCvWtix2TtWGe9kffqnwdaMw"
   },
   {
-   "id": "beadc9df-ff28-4de9-9c22-9c847a5b5045",
-   "name": "Beyonce, Ciara, Termanology",
-   "entity_type": "artist"
+   "id": "c3bb85a5-02cd-b201-b636-6b17581584fa",
+   "decade": "2000s / 1990s / 2010s",
+   "country_of_origin": "United States of America",
+   "entity_type": "artist",
+   "artist_ref_id": "23078",
+   "similarity": 0.361529,
+   "main_genre": "Soul/R&B",
+   "musicbrainz_id": "fac0f203-eb89-4d34-a3c5-8e353356d756",
+   "spotify_id": "6t7nbFAc2dUa7oNu7kBOui",
+   "name": "Michelle Williams",
+   "gender": "Female",
+   "popularity": 0.49,
+   "sort_name": "Williams, Michelle",
+   "musicbrainz_image_url": "https://commons.wikimedia.org/wiki/File:Michelle_Williams_-_The_Drama_League_(PNG).png",
+   "youtube_id": "UC9aH8v4sTKqsYCrYE8U69xw"
   },
   {
-   "id": "80fdd5bc-709f-4249-a030-dc03bd8752c2",
-   "name": "Beyonce & Shakira",
-   "entity_type": "artist"
+   "id": "e7039b90-a6b5-11e0-b446-00251188dd67",
+   "decade": "1990s / 2000s / 2010s",
+   "country_of_origin": "United States of America",
+   "entity_type": "artist",
+   "artist_ref_id": "15741",
+   "similarity": 0.350203,
+   "main_genre": "Pop",
+   "musicbrainz_id": "f0602f55-1770-483d-89bd-4bae0d0ac086",
+   "alternate_names": [
+    "J-Lo",
+    "JLo",
+    "Jenifer Lopez",
+    "J Lo",
+    "Jennier Lopez",
+    "Jennifer Muniz"
+   ],
+   "spotify_id": "2DlGxzQSjYe5N6G9nkYghR",
+   "name": "Jennifer Lopez",
+   "gender": "Female",
+   "popularity": 0.82,
+   "sort_name": "Lopez, Jennifer",
+   "musicbrainz_image_url": "https://commons.wikimedia.org/wiki/File:Jennifer_Lopez_2,_2012.jpg",
+   "youtube_id": "UCneqF6MKRD7-V24OzOhzikw"
   },
   {
-   "id": "94dff30d-d22c-47d7-a6be-2bcb4ce60202",
-   "name": "Beyonce, R. Kelly",
-   "entity_type": "artist"
+   "id": "e5b89406-a6b5-11e0-b446-00251188dd67",
+   "decade": "2000s / 2010s",
+   "country_of_origin": "United States of America",
+   "entity_type": "artist",
+   "artist_ref_id": "64854",
+   "similarity": 0.337647,
+   "main_genre": "Soul/R&B",
+   "musicbrainz_id": "03172286-f7ed-4864-a4db-459cd5ca9790",
+   "alternate_names": [
+    "Ciarra"
+   ],
+   "spotify_id": "2NdeV5rLm47xAvogXrYhJX",
+   "name": "Ciara",
+   "gender": "Female",
+   "popularity": 0.76,
+   "sort_name": "Ciara",
+   "youtube_id": "UCypRipZQkVU_TZYa6WgSMvg"
+  },
+  {
+   "id": "dbd2dd7e-2098-dd6d-6606-5ccf1372ef5f",
+   "decade": "2000s / 2010s",
+   "country_of_origin": "United States of America",
+   "entity_type": "artist",
+   "artist_ref_id": "60773",
+   "similarity": 0.332358,
+   "main_genre": "Soul/R&B",
+   "musicbrainz_id": "95b5d5b5-46c4-4c3e-89d5-ffe9236427ac",
+   "alternate_names": [
+    "Jennifer Hudson & Young Jeezy"
+   ],
+   "spotify_id": "35GL8Cu2GKTcHzKGi75xl5",
+   "name": "Jennifer Hudson",
+   "gender": "Female",
+   "popularity": 0.68,
+   "sort_name": "Hudson, Jennifer",
+   "youtube_id": "UCx_VfDC-Sr1MTw2Oj2PWh2w"
+  },
+  {
+   "id": "b9fae655-9741-b873-9cd0-834c2a9c3e34",
+   "decade": "1990s / 2000s / 1980s / 2010s",
+   "country_of_origin": "United States of America",
+   "entity_type": "artist",
+   "artist_ref_id": "21950",
+   "similarity": 0.326088,
+   "main_genre": "Pop",
+   "musicbrainz_id": "494e8d09-f85b-4543-892f-a5096aed1cd4",
+   "alternate_names": [
+    "マライア・キャリー",
+    "Carey, Mariah",
+    "Mariah-Carey",
+    "Mariah Carrey",
+    "Mariah",
+    "M. Carey"
+   ],
+   "spotify_id": "4iHNK0tOyZPYnBU7nGAgpQ",
+   "name": "Mariah Carey",
+   "gender": "Female",
+   "popularity": 0.78,
+   "sort_name": "Carey, Mariah",
+   "musicbrainz_image_url": "https://commons.wikimedia.org/wiki/File:Mariah_Carey_2_by_David_Shankbone.jpg",
+   "youtube_id": "UCKRnq8aBOCanYlffje7HyvA"
+  },
+  {
+   "id": "2584a55b-01cd-5c09-bd7b-fc93eada3b57",
+   "decade": "2000s / 2010s",
+   "country_of_origin": "United States of America",
+   "entity_type": "artist",
+   "artist_ref_id": "490023",
+   "similarity": 0.324737,
+   "main_genre": "Rap/Hip Hop",
+   "musicbrainz_id": "1036b808-f58c-4a3e-b461-a2c4492ecf1b",
+   "alternate_names": [
+    "Nikki Minaj",
+    "Nicki Minai"
+   ],
+   "spotify_id": "0hCNtLu0JehylgoiP8L4Gh",
+   "name": "Nicki Minaj",
+   "gender": "Female",
+   "popularity": 0.94,
+   "sort_name": "Minaj, Nicki",
+   "musicbrainz_image_url": "https://commons.wikimedia.org/wiki/File:Nicki_Minaj_Femme_2011.jpg",
+   "youtube_id": "UCTTcTeAszDGxALRSMkJH9FQ"
+  },
+  {
+   "id": "3749d5f5-0c8c-2695-9389-2679975311f2",
+   "decade": "2010s",
+   "country_of_origin": "United States of America",
+   "entity_type": "artist",
+   "artist_ref_id": "1912584",
+   "similarity": 0.289838,
+   "main_genre": "Pop",
+   "musicbrainz_id": "f4fdbb4c-e4b7-47a0-b83b-d91bbfcfa387",
+   "spotify_id": "66CXWjxzNUsdJxJ2JdwvnR",
+   "name": "Ariana Grande",
+   "gender": "Female",
+   "popularity": 0.88,
+   "sort_name": "Grande, Ariana",
+   "musicbrainz_image_url": "https://commons.wikimedia.org/wiki/File:ArianaGrandeDecember2013.jpg",
+   "youtube_id": "UC0VOyT2OCBKdQhF3BAbZ-1g"
+  },
+  {
+   "id": "e22e4bfb-a6b5-11e0-b446-00251188dd67",
+   "decade": "1990s / 2000s / 2010s",
+   "country_of_origin": "United States of America",
+   "entity_type": "artist",
+   "artist_ref_id": "6030",
+   "similarity": 0.286453,
+   "main_genre": "Pop",
+   "musicbrainz_id": "b202beb7-99bd-47e7-8b72-195c8d72ebdd",
+   "alternate_names": [
+    "Christina Aquilera",
+    "Christina María Aguilera",
+    "Chistina Aguilera",
+    "Christiana Aguilera",
+    "Christina Aguillera",
+    "Christina Aguliera",
+    "Christine Aguilera",
+    "Cristina Aguilera",
+    "Christina Auguilera",
+    "Chrsitna Aguilera",
+    "Christina Augilera",
+    "Pitbull, Christina Aguilera",
+    "C Aguilera"
+   ],
+   "spotify_id": "1l7ZsJRRS8wlW3WfJfPfNS",
+   "name": "Christina Aguilera",
+   "gender": "Female",
+   "popularity": 0.81,
+   "sort_name": "Aguilera, Christina",
+   "musicbrainz_image_url": "https://commons.wikimedia.org/wiki/File:Christina_Aguilera_Sanremo.jpg",
+   "youtube_id": "UCuRNYM6vrIAL-e4RUX26cPg"
+  },
+  {
+   "id": "4c158d13-a835-5565-026f-ceccab1d4fe5",
+   "decade": "2010s",
+   "country_of_origin": "Australia",
+   "entity_type": "artist",
+   "artist_ref_id": "2003168",
+   "similarity": 0.268325,
+   "main_genre": "Rap/Hip Hop",
+   "musicbrainz_id": "3a052c99-8c18-484a-8beb-9873b4fb3106",
+   "alternate_names": [
+    "Amethyst Amelia Kelly"
+   ],
+   "spotify_id": "5yG7ZAZafVaAlMTeBybKAL",
+   "name": "Iggy Azalea",
+   "gender": "Female",
+   "popularity": 0.82,
+   "sort_name": "Azalea, Iggy",
+   "musicbrainz_image_url": "https://commons.wikimedia.org/wiki/File:Iggy_Azalea_-_ACL_Music_Festival_(5)_(cropped).jpg",
+   "youtube_id": "UCQ06Qg3tc4vGvvG3TY5scNg"
+  },
+  {
+   "id": "645a4d85-b78a-89fe-5482-610276838f02",
+   "decade": "2010s / 2000s",
+   "country_of_origin": "England",
+   "entity_type": "artist",
+   "artist_ref_id": "1984162",
+   "similarity": 0.259005,
+   "main_genre": "Pop",
+   "musicbrainz_id": "c9dd033c-0270-463c-b3ec-f4b7712486fe",
+   "spotify_id": "5CCwRZC6euC8Odo6y9X8jr",
+   "name": "Rita Ora",
+   "gender": "Female",
+   "popularity": 0.79,
+   "sort_name": "Ora, Rita",
+   "musicbrainz_image_url": "https://commons.wikimedia.org/wiki/File:Rita_Ora_2012.jpg",
+   "youtube_id": "UCDuZSttx9tO80kJXQj_poXA"
+  },
+  {
+   "id": "eb6d2819-a6b5-11e0-b446-00251188dd67",
+   "decade": "2000s",
+   "country_of_origin": "Brazil",
+   "entity_type": "artist",
+   "artist_ref_id": "60753",
+   "similarity": 0.257957,
+   "main_genre": "Pop",
+   "musicbrainz_id": "d553e89c-3c2a-4f10-9ce1-9eaa74de0129",
+   "alternate_names": [
+    "Livete Sangalo"
+   ],
+   "spotify_id": "7dzq55YG3wjViqexDwiycQ",
+   "name": "Ivete Sangalo",
+   "gender": "Female",
+   "popularity": 0.62,
+   "sort_name": "Sangalo, Ivete",
+   "youtube_id": "UCG_bUX_sUI06yHWtUSk0XnA"
+  },
+  {
+   "id": "e52c8fa8-a6b5-11e0-b446-00251188dd67",
+   "decade": "2000s / 2010s",
+   "country_of_origin": "United States of America",
+   "entity_type": "artist",
+   "artist_ref_id": "71279",
+   "similarity": 0.249617,
+   "main_genre": "Pop",
+   "musicbrainz_id": "1fda852b-92e9-4562-82fa-c52820a77b23",
+   "alternate_names": [
+    "Pussy Cat Dolls",
+    "THE PUSSYCAT DOLLS",
+    "The Pussy Cat Dolls",
+    "The Pussicat Dolls",
+    "Pussycat Dolls"
+   ],
+   "spotify_id": "6wPhSqRtPu1UhRCDX5yaDJ",
+   "name": "The Pussycat Dolls",
+   "gender": "Female",
+   "popularity": 0.7,
+   "sort_name": "Pussycat Dolls",
+   "musicbrainz_image_url": "https://commons.wikimedia.org/wiki/File:ThePussycatDolls.jpg",
+   "youtube_id": "UCRjEjH_Xj7sQNJ9A_RU-RiA"
+  },
+  {
+   "id": "ea40331e-a6b5-11e0-b446-00251188dd67",
+   "country_of_origin": "United States of America",
+   "entity_type": "artist",
+   "artist_ref_id": "30470",
+   "similarity": 0.248126,
+   "main_genre": "Soul/R&B",
+   "decade": "2000s / 2010s",
+   "musicbrainz_id": "410e7fd3-b865-4fa0-bb18-1b7fd53382ca",
+   "alternate_names": [
+    "Solange Knowles"
+   ],
+   "spotify_id": "2auiVi8sUZo17dLy1HwrTU",
+   "name": "Solange",
+   "gender": "Female",
+   "popularity": 0.58,
+   "sort_name": "Solange",
+   "youtube_id": "UCwLW3Cf-us5rBPSPeXnIm6Q"
+  },
+  {
+   "id": "ed450dd6-a6b5-11e0-b446-00251188dd67",
+   "country_of_origin": "United States of America",
+   "entity_type": "artist",
+   "artist_ref_id": "217475",
+   "similarity": 0.244369,
+   "main_genre": "Pop",
+   "decade": "2000s / 2010s",
+   "musicbrainz_id": "0f7534a6-dc5f-46ca-a2e0-13d214cdd52b",
+   "alternate_names": [
+    "Nicole Kea",
+    "Nicole Sherzinger"
+   ],
+   "spotify_id": "40xbWSB4JPdOkRyuTDy1oP",
+   "name": "Nicole Scherzinger",
+   "gender": "Female",
+   "popularity": 0.65,
+   "sort_name": "Scherzinger, Nicole",
+   "musicbrainz_image_url": "https://commons.wikimedia.org/wiki/File:Nicole_Scherzinger_2012.jpg",
+   "youtube_id": "UCjvEJL9uQUewmBN9L1rWZig"
+  },
+  {
+   "id": "e28225c9-a6b5-11e0-b446-00251188dd67",
+   "decade": "1990s / 2000s / 2010s",
+   "country_of_origin": "United States of America",
+   "entity_type": "artist",
+   "artist_ref_id": "4159",
+   "similarity": 0.233907,
+   "main_genre": "Soul/R&B",
+   "musicbrainz_id": "01e60eba-52df-4694-8f09-39f43abe54e9",
+   "alternate_names": [
+    "Brandy -",
+    "Bran' Nu"
+   ],
+   "spotify_id": "05oH07COxkXKIMt6mIPRee",
+   "name": "Brandy",
+   "gender": "Female",
+   "popularity": 0.66,
+   "sort_name": "Brandy",
+   "youtube_id": "UCc8znPmzi2XHrmg3mz-0tQQ"
+  },
+  {
+   "id": "f0603542-a6b5-11e0-b446-00251188dd67",
+   "decade": "2010s",
+   "country_of_origin": "England",
+   "entity_type": "artist",
+   "artist_ref_id": "271884",
+   "similarity": 0.230145,
+   "main_genre": "Pop",
+   "musicbrainz_id": "d24fb461-dee8-41fc-bb15-2f13bb2644a6",
+   "spotify_id": "2gsggkzM5R49q6jpPvazou",
+   "name": "Jessie J",
+   "gender": "Female",
+   "popularity": 0.83,
+   "sort_name": "Jessie J",
+   "musicbrainz_image_url": "https://commons.wikimedia.org/wiki/File:Jessie_j_2014.jpg",
+   "youtube_id": "UCFIwgbSgHjfiK8mz7VE0g7Q"
+  },
+  {
+   "id": "e2ffcd91-a6b5-11e0-b446-00251188dd67",
+   "decade": "2000s / 2010s / 1990s",
+   "country_of_origin": "United States of America",
+   "entity_type": "artist",
+   "artist_ref_id": "1097",
+   "similarity": 0.226569,
+   "main_genre": "Soul/R&B",
+   "musicbrainz_id": "8ef1df30-ae4f-4dbd-9351-1a32b208a01e",
+   "alternate_names": [
+    "Alicia Keyes",
+    "Alica Keys",
+    "アリシア・キーズ",
+    "Alicia Augello Cook",
+    "A Keys"
+   ],
+   "spotify_id": "3DiDSECUqqY1AuBP8qtaIa",
+   "name": "Alicia Keys",
+   "gender": "Female",
+   "popularity": 0.8,
+   "sort_name": "Keys, Alicia",
+   "youtube_id": "UCvaP3izVIy3fieneHVV6Drw"
   }
  ]
 }
+
+window.exampleDataArray = window.exampleDataObj.data;
