@@ -1,8 +1,8 @@
 <div id="concert-list-item">
-  <div>
+  <div class='concert'>
     <div class='date'>{{$ctrl.concert.Date | date : format : shortDate}}</div>
     <div class='venue'>{{$ctrl.concert.Venue.Name}}</div>
     <div class='location'>{{$ctrl.concert.Venue.City}}, {{$ctrl.concert.Venue.State}}</div>
-    <div class='tickets'><a href='$ctrl.concert.TicketUrl'>Buy Tickets</a></div>
+    <div class='tickets'><a href='{{$ctrl.concert.TicketUrl}}'>Buy Tickets</a></div>
   </div>
 </div>
