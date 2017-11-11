@@ -2,6 +2,7 @@
   <h4 class='heading'>Upcoming Concerts</h4>
   <div>
     <concert-list-item
+      saved='$ctrl.saved'
       concert=concert
       index="$index"
       ng-repeat="concert in $ctrl.concerts"
