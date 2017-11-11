@@ -1,20 +1,21 @@
 angular.module('main')
 
   .component('app', {
-    controller: function(musicGraphID, musicGraphSimilar) {
+    controller: function(jamBase, jamBaseConcerts) {
 
-      this.artist = 'Beyonce';
-      this.artists = window.exampleDataArray;
+      this.artist = 'Phish';
+      this.concerts = window.exampleDataArray;
 
       this.search = () => {
-        musicGraphID.search(this.artist)
+        jamBase.search(this.artist)
         .then((response) => {
-          let artistId = response.data.data[0].id;
-          console.log(artistId);
-          musicGraphSimilar.search(artistId)
+          console.log(response);
+          let artistId = response.data.Artists[0].Id;
+          console.log(artistId)
+          jamBaseConcerts.search(artistId)
           .then((response) => {
             console.log(response);
-            this.artists = response.data.data;
+            this.artists = response.data.Events;
           }, function errorCallBack(response) {
             console.log(response);
           });

@@ -1,2 +1,2 @@
-window.SPOTIFY_API_KEY = '84b85844bf17434c993ad255e852c281';
-window.MUSIC_GRAPH_API_KEY = 'f115bdd3b73749c006f28492a491afd7';
+window.API_KEY = 'na';
+// 54s3p8djm7k56hzw3s2gg5yg
