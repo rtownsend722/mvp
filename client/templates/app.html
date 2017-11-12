@@ -4,6 +4,8 @@
   <div>
     <search search="$ctrl.search" artist="$ctrl.artist"/>
   </div>
+  <button ng-click="$ctrl.review()" class='saved'>View Saved Shows</button>
+  <div>{{$ctrl.shows}}</div>
   <div>
     <concert-list artist=$ctrl.artist concerts="$ctrl.concerts"/>
   </div>
