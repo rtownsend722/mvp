@@ -5,7 +5,13 @@
     <search search="$ctrl.search" artist="$ctrl.artist"/>
   </div>
   <button ng-click="$ctrl.review()" class='saved'>View Saved Shows</button>
-  <div>{{$ctrl.shows}}</div>
+  <div>
+    <saved-shows
+      show='show'
+      index='$ctrl.index'
+      ng-repeat='show in $ctrl.shows'
+    />
+  </div>
   <div>
     <concert-list artist=$ctrl.artist concerts="$ctrl.concerts"/>
   </div>
