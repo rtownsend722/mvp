@@ -4,10 +4,10 @@
     <h5 class='blurb'>Find out where your favorite bands are playing live!</h5>
   </div>
   <div>
-    <search search="$ctrl.search" artist="$ctrl.artist"/>
+    <search search="$ctrl.search" zip="$ctrl.zip" artist="$ctrl.artist" location="$ctrl.location"/>
   </div>
   <div class="saved-shows">
-    <button class='saved-shows-button' ng-click="$ctrl.review()" class='saved'>View Saved Shows</button><img src='./images/musicNoteIcon.png' height='30' width='30'>
+    <img src='./images/musicNoteIcon.png' height='30' width='30'><button class='saved-shows-button' ng-click="$ctrl.review()" class='saved'>View Saved Shows</button><img src='./images/musicNoteIcon.png' height='30' width='30'>
     <div><button class='hide-saved-shows' ng-click='$ctrl.hide()'>Hide Saved Shows</button></div>
   </div>
   <div ng-show='$ctrl.display'>
@@ -21,6 +21,6 @@
     />
   </div>
   <div>
-    <concert-list artist=$ctrl.artist concerts="$ctrl.concerts" review='$ctrl.review' shows='$ctrl.shows'/>
+    <concert-list artist=$ctrl.artist concerts="$ctrl.concerts" review='$ctrl.review' shows='$ctrl.shows' location="$ctrl.location" pending="$ctrl.pending"/>
   </div>
 </div>

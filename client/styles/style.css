@@ -3,6 +3,7 @@
 .group:after {
   content: "";
   display: table;
+  clear: both;
 } 
 .group:after {
   clear: both;
@@ -28,6 +29,11 @@ body {
 
 *:focus {
   outline: none;
+}
+
+.empty {
+  font-size: 40px;
+  text-align: center;
 }
 
 /*List Items*/
@@ -75,11 +81,13 @@ a {
 }
 
 #saved-show {
+  width: 305px;
+  height: 130px;
   text-align: center;
   background-color: #FFD9B9;
   float: left;
   padding: 10px 5px;
-  margin: 5px 0 20px 5%;
+  margin: 5px 4% 10px 4%;
   box-shadow: 5px 5px 5px #888888;
 }
 
@@ -101,8 +109,13 @@ save:hover {
 
 /*Concert List*/
 
+.concert-text {
+  margin-right: 10%;
+  max-width: 200px;
+}
+
 .concert-actions {
-  margin-left: 50px;
+  margin-left: 10%;
 }
 
 .heading {

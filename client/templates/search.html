@@ -1,6 +1,11 @@
 <div id='search'>
   <form>
-    <input class='search-input' ng-model="$ctrl.artist" type="text" value="search concerts">
-    <button class='search-button' ng-click="$ctrl.search()">search</button>
+    <input class='search-input' ng-model="$ctrl.artist" type="text" value="search by artist">
+    <button class='search-button' ng-click="$ctrl.search()">Search Artist</button>
+  </form>
+
+  <form>
+    <input class='search-input' ng-model="$ctrl.location" type="text" value="search by zip code">
+    <button class='search-button' ng-click="$ctrl.zip()">Search Zip</button>
   </form>
 </div>

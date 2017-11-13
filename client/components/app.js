@@ -1,12 +1,18 @@
 angular.module('main')
 
   .component('app', {
-    controller: function(jamBase, jamBaseConcerts, $http) {
+    controller: function(jamBase, jamBaseConcerts, jamBaseLoc, $http) {
 
       this.display = false;
       this.shows;
       this.artist;
-      this.concerts = window.exampleDataArray;
+      this.location;
+      this.concerts;
+      this.pending = true;
+
+      this.unpend = () => {
+        this.pending = false;
+      }
 
       this.hide = () => {
         this.display = false;
@@ -27,6 +33,17 @@ angular.module('main')
         });
       };
 
+      this.zip = () => {
+        console.log('in the zip search');
+        jamBaseLoc.search(this.location)
+        .then((response) => {
+          this.concerts = response.data.Events;
+          this.pending = false;
+        }, function errorCallBack(response) {
+          console.log(response);
+        });
+      };
+
       this.search = () => {
         jamBase.search(this.artist)
         .then((response) => {
@@ -37,6 +54,7 @@ angular.module('main')
           .then((response) => {
             console.log(response);
             this.concerts = response.data.Events;
+            this.pending = false;
           }, function errorCallBack(response) {
             console.log(response);
           });

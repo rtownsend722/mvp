@@ -1,6 +1,6 @@
 <div id="concert-list">
   <div class="heading-container">
-    <h4 class='heading'>Upcoming Concerts for: {{$ctrl.artist}}</h4>
+    <h4 class='heading'>Upcoming Concerts for: {{$ctrl.artist}} {{$ctrl.location}}</h4>
   </div>
   <div>
     <concert-list-item
@@ -11,6 +11,9 @@
       index="$index"
       ng-repeat="concert in $ctrl.concerts"
     ></concert-list-item>
-    <div></div>
+  <div class="empty" ng-show="$ctrl.pending">
+      <div>Yikes! No live shows here!</div>
+      <img src="./images/bandIcon.png" height="300px" width="300px">
+  </div>
   </div>
 </div>

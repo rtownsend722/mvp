@@ -5,7 +5,9 @@ angular.module('main')
       concerts: '<',
       artist: '<',
       review: '<',
-      shows: '='
+      shows: '=',
+      location: '<',
+      pending: '<'
     },
 
     templateUrl: './templates/concertList.html'
