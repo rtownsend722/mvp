@@ -111,7 +111,7 @@ save:hover {
 
 .concert-text {
   margin-right: 10%;
-  max-width: 200px;
+  width: 200px;
 }
 
 .concert-actions {

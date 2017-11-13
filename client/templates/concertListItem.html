@@ -2,6 +2,7 @@
   <div class='concert-info'>
 
     <div class='concert-text'>
+      <div>{{$ctrl.concert.Artists[0].Name}}</div>
       <div class='date'>{{$ctrl.concert.Date | date : format : shortDate}}</div>
       <div class='venue'>{{$ctrl.concert.Venue.Name}}</div>
       <div class='location'>{{$ctrl.concert.Venue.City}}, {{$ctrl.concert.Venue.State}}</div>
