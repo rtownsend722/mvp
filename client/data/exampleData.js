@@ -97,3 +97,4 @@ window.exampleData =
 }
 
 window.exampleDataArray = window.exampleData.Events;
+

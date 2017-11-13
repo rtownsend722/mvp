@@ -16,30 +16,20 @@ Oh, and I also like to write press-releases in what I call "Oprah-speak" for mai
 Once the project moves into development, the press release can be used as a touchstone; a guiding light. The product team can ask themselves, "Are we building what is in the press release?" If they find they're spending time building things that aren't in the press release (overbuilding), they need to ask themselves why. This keeps product development focused on achieving the customer benefits and not building extraneous stuff that takes longer to build, takes resources to maintain, and doesn't provide real customer benefit (at least not enough to warrant inclusion in the press release).
  -->
  
-## Sounds Like ##
-  > Name the product in a way the reader (i.e. your target customers) will understand.
+## Live.ly ##
 
+## Live.ly is an app that allows users to find live music events by their favorite artists.##
 
-## An app to discover new music that sounds like what you already enjoy listening to. ##
-  > Describe who the market for the product is and what benefit they get. One sentence only underneath the title.
+## Live.ly allows users to easily find live music events. Simply type in a band or artists, and Live.ly will display a list of all upcoming concerts. Users can use the app to find tickets for concerts they want to see, or they can save concerts to view later.  ##
 
-## Users can discover new music based on artists that are similar to those they already know and love. ##
-  > Give a summary of the product and the benefit. Assume the reader will not read anything else so make this paragraph good.
+## It can be tough to find all of the concerts you're interested in one place. Live.ly makes it super easy to see when and where your favorite bands are playing! ##
 
-## This app helps music lovers discover new artists ##
-  > Describe the problem your product solves.
+## Unlike other concert listings, Live.ly provides a clean and hassle-free interface for finding live shows, saving shows you might be interested in, and finding tickets for shows you definitely want to see. ##
 
-## Everyone knows which artists they already love. This app makes it easy to find new music to listen to based on what you already know! ##
-  > Describe how your product elegantly solves the problem.
+## We're excited provide a hassle-free way for music lovers to experience live music by their favorite artists! ##
 
-## We're excited to help make it super easy for music lovers discover new artists! ##
-  > A quote from a spokesperson in your company.
+## Getting started is easy. Just visit Live.ly, type in an artist, and find your next live music experience!##
 
-## Getting started is easy. Just visit Sounds Like, enter an artist you love, and discover new artists that have a similar sound!##
-  > Describe how easy it is to get started.
+## "I used to spend hours Googling live music for my favorite bands. The information was out there, but it was all over a bunch of different websites, or you had to pay for Spotify or something. Now it only takes me moments to see where all my favorite bands are playing live!" - Dan from Portland##
 
-## "I was getting really bored listening to all of the same bands all the time. Sounds like opened me up to so many artists I would have never listened to before. It's wayyyy better than Spotify." ##
-  > Provide a quote from a hypothetical customer that describes how they experienced the benefit.
-
-## Visit Sounds Like today to start your music discovery journey! ##
-  > Wrap it up and give pointers where the reader should go next.
+## Visit Live.ly today, and find your next great live music experience! ##
