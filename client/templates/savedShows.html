@@ -1,6 +1,8 @@
 <div id='saved-show' class='group'>
   <div class='artist'>{{$ctrl.show.artist}}</div>
-  <div class='artist'>{{$ctrl.show.date | date : format : shortDate}}</div>
-  <div class='artist'>{{$ctrl.show.venue}}</div>
-  <div class='artist'>{{$ctrl.show.city}}, {{$ctrl.show.state}}</div>
+  <div class='date'>{{$ctrl.show.date | date : format : shortDate}}</div>
+  <div class='venue'>{{$ctrl.show.venue}}</div>
+  <div class='location'>{{$ctrl.show.city}}, {{$ctrl.show.state}}</div>
+  <div class='remove' ng-click='$ctrl.remove()'><img src='./images/trashIcon.png' height='30' width='30'></div>
+
 </div>

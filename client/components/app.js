@@ -1,10 +1,31 @@
 angular.module('main')
 
   .component('app', {
-    controller: function(jamBase, jamBaseConcerts) {
+    controller: function(jamBase, jamBaseConcerts, $http) {
 
-      this.artist = 'Phish';
+      this.display = false;
+      this.shows;
+      this.artist;
       this.concerts = window.exampleDataArray;
+
+      this.hide = () => {
+        this.display = false;
+      }
+
+      this.review = () => {
+        return $http({
+          method: 'GET',
+          url: '/concerts',
+        })
+        .then((response) => {
+          console.log(response.data);
+          this.shows = response.data;
+        }, function errorCallBack(response) {
+          console.log(response);
+        }).then( () => {
+          this.display = true;
+        });
+      };
 
       this.search = () => {
         jamBase.search(this.artist)
@@ -15,7 +36,7 @@ angular.module('main')
           jamBaseConcerts.search(artistId)
           .then((response) => {
             console.log(response);
-            this.artists = response.data.Events;
+            this.concerts = response.data.Events;
           }, function errorCallBack(response) {
             console.log(response);
           });

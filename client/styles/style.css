@@ -1,42 +1,162 @@
-/*Layout*/
+/*Clearfix*/
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+} 
+.group:after {
+  clear: both;
+}
+.group {
+  zoom: 1; 
+}
 
-.concert-list {
+/*Main Styles*/
+body {
+  background: linear-gradient(90deg, #9AE8E0, #C8E8D3);
+}
+
+#info {
+  margin-bottom: 40px;
+  border-bottom: 1px solid #3F423C;
+}
+
+* {
+  font-family: 'Raleway', sans-serif;
+  color: #3F423C;
+}
+
+*:focus {
+  outline: none;
+}
+
+/*List Items*/
+.concert-info {
+  /*border: 1px solid #3F423C;*/
+  background: #C8E8D3;
   text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 10px 0;
+}
+
+.heading-container {
+  margin-top: 10px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/*Saved Shows*/
+
+
+.saved-shows {
+  text-align: center;
+}
+
+.hide-saved-shows {
+  background: transparent;
+  font-size: 10px;
+}
+
+.saved-shows-button {
+  background: transparent;
+  font-size: 20px;
+}
+
+.saved-shows-button:hover,
+.hide-saved-shows:hover
+ {
+  background: #FFFFE8;
+  cursor: pointer;
+}
+
+#saved-show {
+  text-align: center;
+  background-color: #FFD9B9;
+  float: left;
+  padding: 10px 5px;
+  margin: 5px 0 20px 5%;
+  box-shadow: 5px 5px 5px #888888;
+}
+
+.artist {
+  font-weight: bold;
+}
+
+.tickets:hover {
+  cursor: pointer;
+}
+
+save {
+  font-weight: bold;
+}
+
+save:hover {
+  cursor: pointer;
+}
+
+/*Concert List*/
+
+.concert-actions {
+  margin-left: 50px;
+}
+
+.heading {
+  text-align: center;
+  font-size: 20px;
+  clear: both;
+}
+
+#concert-list {
+  text-align: center;
+}
+
+.concert-info {
+  display: flex;
+  justify-content: center; 
+  box-shadow: 5px 5px 5px #888888;
+}
+
+.date {
+  font-weight: bold;
+  font-size: 18px;
 }
 
 /*Headings*/
 .header {
   text-align: center;
-  font-size: 50px;
+  font-size: 75px;
 }
 
 .blurb {
   text-align: center;
+  font-size: 18px;
+  padding-bottom: 20px;
 }
 
 /*Search*/
-search {
+#search {
   text-align: center;
-}
-
-/*List*/
-.heading {
-  text-align: center;
-  font-size: 20px;
-}
-
-
-/*List Items*/
-.concert {
-  border: 3px solid black;
-  text-align: center;
-  background-color: #99A1E8;
-  padding-top: 10px;
   padding-bottom: 10px;
 }
 
-a {
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
+.search-input {
+  width: 60%;
+  height: 20px;
+  margin: 5px 0 10px 0;
+  font-size: 15px;
+  background: #F4FFE8;
 }
+
+button {
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #FFFFE8;
+  border: none;
+}
+
+

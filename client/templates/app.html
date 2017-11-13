@@ -1,18 +1,26 @@
 <div id="app container">
-  <div class='header'>Live.ly</div>
-  <h5 class='blurb'>Find out where your favorite bands are playing live!</h5>
+  <div id="info">
+    <div class='header'>Live.ly</div>
+    <h5 class='blurb'>Find out where your favorite bands are playing live!</h5>
+  </div>
   <div>
     <search search="$ctrl.search" artist="$ctrl.artist"/>
   </div>
-  <button ng-click="$ctrl.review()" class='saved'>View Saved Shows</button>
-  <div>
+  <div class="saved-shows">
+    <button class='saved-shows-button' ng-click="$ctrl.review()" class='saved'>View Saved Shows</button><img src='./images/musicNoteIcon.png' height='30' width='30'>
+    <div><button class='hide-saved-shows' ng-click='$ctrl.hide()'>Hide Saved Shows</button></div>
+  </div>
+  <div ng-show='$ctrl.display'>
     <saved-shows
+      shows = '$ctrl.shows'
+      review = '$ctrl.review'
+      display = '$ctrl.display'
       show='show'
       index='$ctrl.index'
       ng-repeat='show in $ctrl.shows'
     />
   </div>
   <div>
-    <concert-list artist=$ctrl.artist concerts="$ctrl.concerts"/>
+    <concert-list artist=$ctrl.artist concerts="$ctrl.concerts" review='$ctrl.review' shows='$ctrl.shows'/>
   </div>
 </div>

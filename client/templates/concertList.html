@@ -1,7 +1,11 @@
 <div id="concert-list">
-  <h4 class='heading'>Upcoming Concerts</h4>
+  <div class="heading-container">
+    <h4 class='heading'>Upcoming Concerts for: {{$ctrl.artist}}</h4>
+  </div>
   <div>
     <concert-list-item
+      shows = '$ctrl.shows'
+      review = '$ctrl.review'
       saved='$ctrl.saved'
       concert=concert
       index="$index"
